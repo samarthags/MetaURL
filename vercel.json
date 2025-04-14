@@ -1,9 +1,4 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
-}
-{
   "name": "ammu-name-meta",
   "version": "1.0.0",
   "scripts": {

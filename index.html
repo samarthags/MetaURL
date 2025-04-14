@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Display Name</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      font-size: 3rem;
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <div id="name"></div>
+
+  <script>
+    const path = window.location.pathname;
+    const name = decodeURIComponent(path.replace(/^\/+/, '')) || "No name provided";
+    document.getElementById('name').textContent = name;
+  </script>
+</body>
+</html>

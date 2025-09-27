@@ -87,6 +87,4 @@ Contributions are welcome!
 
 👨‍💻 Author
 
-Created with ❤️ by Samarthags
-
----
+Made With ❤️‍🔥 By Samarth Gs

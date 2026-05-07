@@ -67,7 +67,7 @@ export default function NamePage({ name, mood }) {
         <title>{name} - {time}</title>
         <meta property="og:title" content={`${name} - ${time}`} />
         <meta property="og:description" content={`Mood: ${mood || 'cool'} | ${time}`} />
-        <meta property="og:url" content={`https://ammu.vercel.app/${name}`} />
+        <meta property="og:url" content={`https://sammuurl.vercel.app/${name}`} />
       </Head>
 
       <div

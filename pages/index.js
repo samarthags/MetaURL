@@ -3,17 +3,16 @@ export default function Home() {
     <div style={{
       height: '100vh',
       display: 'flex',
-      justifyContent: 'center',
       alignItems: 'center',
-      fontSize: '2rem',
-      background: 'linear-gradient(135deg, #667eea, #764ba2)',
-      color: 'white',
-      fontFamily: 'sans-serif',
-      textAlign: 'center',
-      padding: '20px'
+      justifyContent: 'center',
+      background: '#0d1117',
+      color: '#c9d1d9',
+      fontFamily: 'monospace'
     }}>
-      Try:<br />
-      <code>/samarth?mood=🔥</code>
+      <div>
+        <p>Usage:</p>
+        <code>/samarth?status=building&role=dev</code>
+      </div>
     </div>
   );
 }

@@ -1,10 +1,19 @@
 export default function Home() {
   return (
     <div style={{
-      display: 'flex', justifyContent: 'center',
-      alignItems: 'center', height: '100vh', fontSize: '2rem'
+      height: '100vh',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      fontSize: '2rem',
+      background: 'linear-gradient(135deg, #667eea, #764ba2)',
+      color: 'white',
+      fontFamily: 'sans-serif',
+      textAlign: 'center',
+      padding: '20px'
     }}>
-      Add a name in the URL like <code>/samarth</code>
+      Try:<br />
+      <code>/samarth?mood=🔥</code>
     </div>
   );
 }
